@@ -1,0 +1,13 @@
+Tabela para o usuário --> Tabela sensor --> Tabela coleta
+
+
+usuário 
+Um usuário possui muitos sensores 
+Cada usuário tem: id(chave primaria), nome, telefone, senha, email e N de serie(chave estrangeira)
+
+sensor
+Um sensor realiza muitas coletas
+cada sensor tem: N de serie e dono(id, chave estrangeira)
+
+coleta
+A coleta tem: id(chave primaria), data, cor aparente, led vermelha, led verde e led azul
